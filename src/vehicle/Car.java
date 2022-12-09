@@ -1,7 +1,7 @@
 package vehicle;
 
 public class Car extends Vehicle{
-    public Car(int price, int speed, int year) {
-        super(price, speed, year);
+    public Car(double latitude, double longitude, int price, int speed, int year) {
+        super(latitude, longitude, price, speed, year);
     }
 }

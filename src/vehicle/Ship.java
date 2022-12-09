@@ -12,11 +12,12 @@ public class Ship extends Vehicle{
         this.port = port;
     }
 
-    public Ship(int price, int speed, int year, int amountOfPassengers, String port) {
-        super(price, speed, year);
+    public Ship(double latitude, double longitude, int price, int speed, int year, int amountOfPassengers, String port) {
+        super(latitude, longitude, price, speed, year);
         this.amountOfPassengers = amountOfPassengers;
         this.port = port;
     }
+
     @Override
     public void showInfo() {
         super.showInfo();
